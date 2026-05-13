@@ -1,0 +1,52 @@
+.site-header {
+  background-color: #111827;
+  border-bottom: 1px solid #d9d9d9;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+}
+
+.header-content {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand p {
+  color: #f8fafc;
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.brand span {
+  color: #94a3b8;
+  font-weight: 400;
+}
+
+.site-nav {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 18px;
+}
+
+.site-nav a {
+  color: #f9fafb;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 1;
+}
+
+.site-nav a:hover {
+  color: #60a5fa;
+}
