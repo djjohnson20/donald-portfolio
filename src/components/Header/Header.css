@@ -1,5 +1,7 @@
 .site-header {
-  background-color: #0f172a;
+  background-color: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(148, 163, 184, 0.12);
   padding: 20px 0;
   position: sticky;
   top: 0;

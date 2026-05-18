@@ -4,7 +4,7 @@
 
 .skills-content h2 {
   font-size: 36px;
-  margin-bottom: 32px;
+  margin-bottom: 28px;
 }
 
 .skills-grid {
@@ -14,16 +14,24 @@
 }
 
 .skill-card {
-  background-color: #111827;
+  background-color: rgba(15, 23, 42, 0.7);
   border: 1px solid #1f2937;
   border-radius: 10px;
-  padding: 24px;
+  padding: 22px;
+  transition:
+    border-color 0.2s ease,
+    background-color 0.2s ease;
+}
+
+.skill-card:hover {
+  border-color: #334155;
+  background-color: rgba(15, 23, 42, 0.82);
 }
 
 .skill-card h3 {
-  font-size: 22px;
-  margin-bottom: 16px;
-  color: #f8fafc;
+  font-size: 20px;
+  margin-bottom: 14px;
+  color: #e2e8f0;
 }
 
 .skill-card ul {
@@ -34,9 +42,9 @@
 
 .skill-card li {
   color: #cbd5e1;
-  font-size: 16px;
-  line-height: 1.7;
-  margin-bottom: 12px;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 10px;
 }
 
 .skill-card li:last-child {
