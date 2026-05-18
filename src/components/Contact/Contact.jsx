@@ -6,9 +6,9 @@ function Contact() {
       <div className="contact-content">
         <h2>Contact</h2>
         <p className="contact-description">
-          I am currently open to new opportunities and would love to connect.
-          Whether you want to discuss a project, collaboration, or potential
-          role, feel free to reach out.
+          I am currently open to new opportunities and collaborations. If you
+          would like to discuss a project, potential role, or ways to work
+          together, feel free to reach out.
         </p>
 
         <div className="contact-links">

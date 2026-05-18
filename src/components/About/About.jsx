@@ -6,13 +6,14 @@ function About() {
       <div className="about-content">
         <h2>About Me</h2>
         <p>
-          I am a full stack developer who enjoys building clean, responsive, and
-          user-focused web applications.
+          I am a full stack developer with a focus on building thoughtful,
+          reliable web applications that balance usability, performance, and
+          maintainable code.
         </p>
         <p>
-          My focus is on creating experiences that are both visually polished
-          and practical to use, with attention to performance, accessibility,
-          and maintainable code.
+          I enjoy working across both frontend and backend development, creating
+          interfaces that feel polished and practical while supporting them with
+          solid application logic and APIs.
         </p>
       </div>
     </section>

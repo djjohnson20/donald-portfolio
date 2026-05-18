@@ -8,8 +8,8 @@ function Hero() {
         <h1>Donald Johnson</h1>
         <h2>Full Stack Developer</h2>
         <p className="hero-description">
-          I build clean, responsive, and user-focused web applications with
-          modern frontend and backend tools.
+          I build responsive web applications with clean user experiences,
+          practical backend architecture, and maintainable code.
         </p>
 
         <div className="hero-actions">

@@ -5,11 +5,11 @@ const skills = [
   },
   {
     category: "Backend",
-    items: ["Node.js", "Express", "MongoDB", "Mongoose", "RESTful APIs"],
+    items: ["Node.js", "Express", "MongoDB", "Mongoose", "REST APIs"],
   },
   {
     category: "Tools",
-    items: ["Git", "GitHub", "Vite", "VS Code", "Postman"],
+    items: ["Git", "GitHub", "Vite", "VS Code", "Postman", "npm"],
   },
 ];
 
