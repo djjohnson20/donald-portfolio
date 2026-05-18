@@ -61,3 +61,24 @@
     padding: 10px 16px;
   }
 }
+
+@media (max-width: 480px) {
+  .contact-content h2 {
+    font-size: 24px;
+  }
+
+  .contact-description {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  .contact-links {
+    gap: 12px;
+  }
+
+  .contact-links a {
+    font-size: 14px;
+    padding: 9px 14px;
+  }
+}

@@ -10,7 +10,6 @@
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -34,12 +33,11 @@
 }
 
 .site-nav {
-  width: 90%;
-  margin: 0 auto;
   display: flex;
-  flex-wrap: nowrap;
-  justify-content: flex-end;
+  align-items: center;
   gap: 24px;
+  margin-left: auto;
+  padding-left: 40px;
 }
 
 .site-nav a {
@@ -62,7 +60,7 @@
   .header-content {
     width: 95%;
     max-width: 100%;
-    gap: 16px;
+    gap: 12px;
   }
 
   .brand p {
@@ -73,9 +71,30 @@
 
   .site-nav {
     gap: 12px;
+    padding-left: 16px;
   }
 
   .site-nav a {
     font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-content {
+    width: 95%;
+    gap: 10px;
+  }
+
+  .brand p {
+    font-size: 14px;
+  }
+
+  .site-nav {
+    gap: 10px;
+    padding-left: 12px;
+  }
+
+  .site-nav a {
+    font-size: 13px;
   }
 }
