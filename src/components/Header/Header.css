@@ -67,6 +67,9 @@
   .header-content {
     width: 95%;
     max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     gap: 12px;
   }
 
@@ -77,8 +80,11 @@
   }
 
   .site-nav {
+    display: flex;
+    flex-wrap: wrap;
     gap: 12px;
-    padding-left: 16px;
+    margin-left: 0;
+    padding-left: 0;
   }
 
   .site-nav a {
@@ -98,7 +104,7 @@
 
   .site-nav {
     gap: 10px;
-    padding-left: 12px;
+    padding-left: 0;
   }
 
   .site-nav a {
