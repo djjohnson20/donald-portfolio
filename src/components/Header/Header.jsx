@@ -5,7 +5,7 @@ function Header() {
     <header className="site-header">
       <div className="header-content">
         <div className="brand">
-          <p>Donald Johnson | Developer</p>
+          <a href="#hero">Donald Johnson | Developer</a>
         </div>
         <nav className="site-nav">
           <a href="#about">About</a>

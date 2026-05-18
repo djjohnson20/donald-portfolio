@@ -16,7 +16,7 @@
 .skill-card {
   background-color: rgba(15, 23, 42, 0.7);
   border: 1px solid #1f2937;
-  border-radius: 10px;
+  border-radius: 12px;
   padding: 22px;
   transition:
     border-color 0.2s ease,

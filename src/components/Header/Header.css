@@ -20,18 +20,19 @@
   align-items: center;
 }
 
-.brand p {
+.brand a {
   color: #f8fafc;
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 650;
   margin: 0;
-  line-height: 1;
+  line-height: 1.1;
   white-space: nowrap;
+  text-decoration: none;
 }
 
-.brand span {
-  color: #94a3b8;
-  font-weight: 400;
+.brand a:hover {
+  color: #93c5fd;
+  opacity: 0.95;
 }
 
 .site-nav {
@@ -48,10 +49,14 @@
   font-size: 16px;
   text-decoration: none;
   line-height: 1;
+  transition:
+    color 0.2s ease,
+    opacity 0.2s ease;
 }
 
 .site-nav a:hover {
   color: #60a5fa;
+  opacity: 0.9;
 }
 
 @media (max-width: 768px) {
@@ -65,7 +70,7 @@
     gap: 12px;
   }
 
-  .brand p {
+  .brand a {
     font-size: 16px;
     line-height: 1.2;
     white-space: nowrap;
@@ -87,7 +92,7 @@
     gap: 10px;
   }
 
-  .brand p {
+  .brand a {
     font-size: 14px;
   }
 
