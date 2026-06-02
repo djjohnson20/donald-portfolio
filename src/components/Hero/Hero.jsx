@@ -3,11 +3,10 @@ import "./Hero.css";
 function Hero() {
   const trackEvent = (ctaName) => {
     if (window.gtag) {
-      (window.gtag("event", "cta_click"),
-        {
-          cta_name: ctaName,
-          cta_location: "hero",
-        });
+      window.gtag("event", "cta_click", {
+        cta_name: ctaName,
+        cta_location: "hero",
+      });
     }
   };
 

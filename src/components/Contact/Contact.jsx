@@ -1,6 +1,15 @@
 import "./Contact.css";
 
 function Contact() {
+  const trackContactClick = (contactType) => {
+    if (window.gtag) {
+      window.gtag("event", "contact_link_click", {
+        contact_type: contactType,
+        link_location: "contact",
+      });
+    }
+  };
+
   return (
     <section id="contact">
       <div className="contact-content">
@@ -12,11 +21,17 @@ function Contact() {
         </p>
 
         <div className="contact-links">
-          <a href="mailto:djjohnson380@gmail.com">Email Me</a>
+          <a
+            href="mailto:djjohnson380@gmail.com"
+            onClick={() => trackContactClick("email")}
+          >
+            Email Me
+          </a>
           <a
             href="https://github.com/djjohnson20"
             target="_blank"
             rel="noopener noreferrer"
+            onClick={() => trackContactClick("github")}
           >
             GitHub
           </a>
@@ -24,6 +39,7 @@ function Contact() {
             href="https://www.linkedin.com/in/donald-johnson-1ba06b293"
             target="_blank"
             rel="noopener noreferrer"
+            onClick={() => trackContactClick("linkedin")}
           >
             LinkedIn
           </a>
