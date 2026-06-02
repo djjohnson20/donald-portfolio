@@ -1,6 +1,16 @@
 import "./Hero.css";
 
 function Hero() {
+  const trackEvent = (ctaName) => {
+    if (window.gtag) {
+      (window.gtag("event", "cta_click"),
+        {
+          cta_name: ctaName,
+          cta_location: "hero",
+        });
+    }
+  };
+
   return (
     <section id="hero">
       <div className="hero-content">
@@ -13,8 +23,12 @@ function Hero() {
         </p>
 
         <div className="hero-actions">
-          <a href="#projects">View Projects</a>
-          <a href="#contact">Contact Me</a>
+          <a href="#projects" onClick={() => trackEvent("view_projects")}>
+            View Projects
+          </a>
+          <a href="#contact" onClick={() => trackEvent("contact_me")}>
+            Contact Me
+          </a>
         </div>
       </div>
     </section>
